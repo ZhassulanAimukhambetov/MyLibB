@@ -17,7 +17,7 @@ let package = Package(
         .target(
             name: "MyLibraryB",
             dependencies: [
-                .product(name: "Alamofire", package: "Alamofire")
+                .product(name: "AlamofireOld", package: "Alamofire")
             ]
         ),
     ]
