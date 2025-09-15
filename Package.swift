@@ -11,7 +11,7 @@ let package = Package(
             targets: ["MyLibraryB"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Alamofire/Alamofire.git", exact: "5.9.1")
+        .package(url: "https://github.com/ZhassulanAimukhambetov/Alamofire.git", branch: "master")
     ],
     targets: [
         .target(
